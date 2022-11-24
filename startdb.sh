@@ -1,0 +1,1 @@
+podman run -d --name mysql_database -e MYSQL_ROOT_PASSWORD=pass -e MYSQL_DATABASE=db -p 3306:3306 mysql:8
